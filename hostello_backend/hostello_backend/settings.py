@@ -91,9 +91,23 @@ TEMPLATES = [
 WSGI_APPLICATION = 'hostello_backend.wsgi.application'
 
 # Database
+DATABASE_URL = config('DATABASE_URL', default=None)
 DB_ENGINE = config('DB_ENGINE', default='django.db.backends.postgresql')
 
-if DB_ENGINE == 'django.db.backends.sqlite3':
+if DATABASE_URL:
+    import urllib.parse
+    url = urllib.parse.urlparse(DATABASE_URL)
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql',
+            'NAME': url.path[1:],
+            'USER': url.username,
+            'PASSWORD': url.password,
+            'HOST': url.hostname,
+            'PORT': url.port or 5432,
+        }
+    }
+elif DB_ENGINE == 'django.db.backends.sqlite3':
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
