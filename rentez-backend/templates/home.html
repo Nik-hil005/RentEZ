@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -180,7 +180,7 @@ nav {
       rgba(15, 26, 44, 0.5),
       rgba(15, 26, 44, 0.5)
     ),
-    url("media/header1.png");
+    url("/static/images/header1.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -248,7 +248,7 @@ nav {
   right: 0;
   height: 75%;
   width: 100%;
-  background-image: url("media/about-bg.jpg");
+  background-image: url("/static/images/about-bg.jpg");
   background-size: 500%;
   background-position: center center;
   background-repeat: no-repeat;
@@ -344,7 +344,7 @@ nav {
   align-items: flex-start; /* text left side start cheyyum */
   gap: 0.5rem;
   background-color: var(--white);
-  transform: translateY(-20%); /* -50% → -20% akki, korach thazhe */
+  transform: translateY(-20%); /* -50% â†’ -20% akki, korach thazhe */
   border-radius: 5px;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
@@ -534,28 +534,28 @@ nav {
 
 .menu__banner {
   list-style: none;
-  padding: 0rem;             /* 🔹 padding kure korachu */
+  padding: 0rem;             /* ðŸ”¹ padding kure korachu */
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* 4 items side by side */
-  align-items: center;       /* 🔹 vertical center */
-  justify-items: center;     /* 🔹 horizontal center */
+  align-items: center;       /* ðŸ”¹ vertical center */
+  justify-items: center;     /* ðŸ”¹ horizontal center */
   gap: 1rem;
   text-align: center;
   background-color: var(--primary-color);
   border-radius: 5px;
-  height: 80px;             /* 🔹 fix height smaller */
+  height: 80px;             /* ðŸ”¹ fix height smaller */
 }
 
 /* icons size control */
 .menu__banner i {
-  font-size: 1.8rem;         /* 🔹 reduce icons */
+  font-size: 1.8rem;         /* ðŸ”¹ reduce icons */
   color: var(--secondary-color);
   display: block;
 }
 
 /* text size control */
 .menu__banner span {
-  font-size: 1rem;           /* 🔹 reduce text */
+  font-size: 1rem;           /* ðŸ”¹ reduce text */
   color: #fff;
   display: block;
 }
@@ -563,11 +563,11 @@ nav {
 
 .menu__banner1 {
   list-style: none;
-  padding: 1rem;             /* 🔹 padding kure korachu */
+  padding: 1rem;             /* ðŸ”¹ padding kure korachu */
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* 4 items side by side */
-  align-items: center;       /* 🔹 vertical center */
-  justify-items: center;     /* 🔹 horizontal center */
+  align-items: center;       /* ðŸ”¹ vertical center */
+  justify-items: center;     /* ðŸ”¹ horizontal center */
   gap: 1rem;
   text-align: center;
   background-color: var(--primary-color);
@@ -698,8 +698,8 @@ nav {
 
 .news__grid {
   display: flex;
-  overflow-x: auto;      /* 🔹 Horizontal scroll enable */
-  scroll-behavior: smooth; /* 🔹 Smooth scrolling */
+  overflow-x: auto;      /* ðŸ”¹ Horizontal scroll enable */
+  scroll-behavior: smooth; /* ðŸ”¹ Smooth scrolling */
   gap: 1.5rem;
   padding-bottom: 1rem;   /* scroll bar space */
 }
@@ -1245,13 +1245,13 @@ nav {
   margin: 10px 0;
 }
 .login {
-  margin-top: 30px;         /* 🔹 login text space */
-  font-size: 0.9rem;        /* 🔹 text */
-  text-align: center;       /* 🔹 center align */
+  margin-top: 30px;         /* ðŸ”¹ login text space */
+  font-size: 0.9rem;        /* ðŸ”¹ text */
+  text-align: center;       /* ðŸ”¹ center align */
 }
 
 .login a {
-  color: rgb(252, 64, 64);               /* 🔹 link red  */
+  color: rgb(252, 64, 64);               /* ðŸ”¹ link red  */
 }
 
 
@@ -1319,9 +1319,9 @@ nav {
   accent-color: #ff4d4d; /* red highlight */
 }
 .apply-card {
-  width: 442px;        /* was 350px → charuthakki */
-  padding: 14px;       /* was 18px → kurachu reduce */
-  border-radius: 14px; /* was 18px → cheriya smooth radius */
+  width: 442px;        /* was 350px â†’ charuthakki */
+  padding: 14px;       /* was 18px â†’ kurachu reduce */
+  border-radius: 14px; /* was 18px â†’ cheriya smooth radius */
   font-size: 12px;     /* text also kurachu slim */
 }
 
@@ -1588,7 +1588,7 @@ nav {
 
   <script>
     document.getElementById("applyForm").addEventListener("submit", function(e) {
-      e.preventDefault(); // ✅ stops page reload
+      e.preventDefault(); // âœ… stops page reload
       alert("By submitting this form, I agree to receive notifications from the Hostel warden in the form of SMS/E-mail/Call.");
     });
   </script>  
@@ -1625,22 +1625,22 @@ nav {
         <div class="section__container about__container">
           <div class="about__grid">
             <div class="about__image">
-              <img src="media/header4.jpg" alt="about" />
+              <img src="/static/images/header4.jpg" alt="about" />
           </div>
           <div class="about__card">
             <span><i class="ri-men-line"></i></span>
             <h4>Rooms for Men</h4>
             <!-- <p>
-              There are 14 blocks allotted for Men of capacity varying from 200 to 1000 students in each block. The total capacity for Men’s hostel is about 7500.
+              There are 14 blocks allotted for Men of capacity varying from 200 to 1000 students in each block. The total capacity for Menâ€™s hostel is about 7500.
             </p> -->
           </div>
           <div class="about__image">
-            <img src="media/header5.jpg" alt="about" />
+            <img src="/static/images/header5.jpg" alt="about" />
           </div>
           <div class="about__card">
             <span><i class="ri-women-line"></i></span>
             <h4>Rooms for Women</h4>
-            <!-- <p>There are 7 blocks allotted for Women students of capacity varying from 250 to 700 in each block. The total capacity for Women’s hostel is about 4000.</p> -->
+            <!-- <p>There are 7 blocks allotted for Women students of capacity varying from 250 to 700 in each block. The total capacity for Womenâ€™s hostel is about 4000.</p> -->
           </div>
         </div>
         <div class="about__content">
@@ -1649,18 +1649,18 @@ nav {
           <p class="section__description">
             RentEZ aims to provide a secure, supportive, and student-friendly management environment for your hostel. With modern facilities, dedicated wardens, and recreational opportunities, students can focus on academics and personal growth.  
             Our hostel ensures a homely atmosphere with all essential amenities and activities that promote well-being.  
-            <br><br>“A hostel is not just accommodation; it is a journey of learning, sharing, and growth.”
+            <br><br>â€œA hostel is not just accommodation; it is a journey of learning, sharing, and growth.â€
           </p>
           <button class="btn" id="watchVideoBtn">Watch Video</button>
         </div>
       </section>
 
-      <!-- ✅ Video Modal -->
+      <!-- âœ… Video Modal -->
       <div id="videoModal" class="video-modal">
         <div class="video-box">
           <span class="close">&times;</span>
           <video controls width="800">
-            <source src="media/luxury.mp4" type="video/mp4">
+            <source src="/static/images/luxury.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
         </div>
@@ -1673,7 +1673,7 @@ nav {
       <div class="room__grid">
 
         <div class="room__card">
-          <img src="media/bed1.jpg" alt="room" />
+          <img src="/static/images/bed1.jpg" alt="room" />
           <div class="room__card__details">
             <div>
               <h4>1 Seater Room</h4>
@@ -1681,18 +1681,18 @@ nav {
               <div class="price-box">
                 <div class="price-row">
                   <i>Non AC (Per annum):</i>
-                  <h3>Rs. 42,000 ₹<span>/Head</span></h3>
+                  <h3>Rs. 42,000 â‚¹<span>/Head</span></h3>
                 </div>
                 <div class="price-row">
                   <i>AC (Per annum):</i>
-                  <h3>Rs. 54,000 ₹<span>/Head</span></h3>
+                  <h3>Rs. 54,000 â‚¹<span>/Head</span></h3>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="room__card">
-          <img src="media/bed2.jpg" alt="room" />
+          <img src="/static/images/bed2.jpg" alt="room" />
           <div class="room__card__details">
             <div>
               <h4>2 Seater Room</h4>
@@ -1700,11 +1700,11 @@ nav {
               <div class="price-box">
                 <div class="price-row">
                   <i>Non AC (Per annum):</i>
-                  <h3>Rs. 36,000 ₹<span>/Head</span></h3>
+                  <h3>Rs. 36,000 â‚¹<span>/Head</span></h3>
                 </div>
                 <div class="price-row">
                   <i>AC (Per annum):</i>
-                  <h3>Rs. 48,000 ₹<span>/Head</span></h3>
+                  <h3>Rs. 48,000 â‚¹<span>/Head</span></h3>
                 </div>
               </div>
             </div>
@@ -1712,7 +1712,7 @@ nav {
         </div>
         <div><br></div>
         <div class="room__card">
-          <img src="media/bed03.png" alt="room" />
+          <img src="/static/images/bed03.png" alt="room" />
           <div class="room__card__details">
             <div>
               <h4>3 Seater Room</h4>
@@ -1720,18 +1720,18 @@ nav {
               <div class="price-box">
                 <div class="price-row">
                   <i>Non AC (Per annum):</i>
-                  <h3>Rs. 30,000 ₹<span>/Head</span></h3>
+                  <h3>Rs. 30,000 â‚¹<span>/Head</span></h3>
                 </div>
                 <div class="price-row">
                   <i>AC (Per annum):</i>
-                  <h3>Rs. 42,000 ₹<span>/Head</span></h3>
+                  <h3>Rs. 42,000 â‚¹<span>/Head</span></h3>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="room__card">
-          <img src="media/bed4.png" alt="room" />
+          <img src="/static/images/bed4.png" alt="room" />
           <div class="room__card__details">
             <div>
               <h4>4 Seater Room</h4>
@@ -1739,11 +1739,11 @@ nav {
               <div class="price-box">
                 <div class="price-row">
                   <i>Non AC (Per annum):</i>
-                  <h3>Rs. 24,000 ₹<span>/Head</span></h3>
+                  <h3>Rs. 24,000 â‚¹<span>/Head</span></h3>
                 </div>
                 <div class="price-row">
                   <i>AC (Per annum):</i>
-                  <h3>Rs. 36,000 ₹<span>/Head</span></h3>
+                  <h3>Rs. 36,000 â‚¹<span>/Head</span></h3>
                 </div>
               </div>
             </div>
@@ -1766,7 +1766,7 @@ nav {
            <a href="https://livingloungehostel.com/virtualtour/#" target="_blank" class="btn">Take Virtual Tour</a>
         </div>
         <div class="intro__video">
-          <video src="media/room1.mp4" autoplay muted loop></video>
+          <video src="/static/images/room1.mp4" autoplay muted loop></video>
         </div>
       </div>
     </section>
@@ -1856,7 +1856,7 @@ nav {
       <div class="news__grid1" id="carousel">
         <!-- Slide 1 -->
         <div class="news__card1">
-          <img src="media/menu-1.jpg" alt="news" />
+          <img src="/static/images/menu-1.jpg" alt="news" />
           <h4>MONDAY</h4>
           <div class="price-row">
             <i>Morning:</i>
@@ -1876,7 +1876,7 @@ nav {
           </div>
         </div>
         <div class="news__card">
-          <img src="media/menu-2.jpg" alt="news" />
+          <img src="/static/images/menu-2.jpg" alt="news" />
           <h4>TUESDAY</h4>
           <div class="price-row">
             <i>Morning:</i>
@@ -1896,7 +1896,7 @@ nav {
           </div>
         </div>
         <div class="news__card">
-          <img src="media/menu-3.jpg" alt="news" />
+          <img src="/static/images/menu-3.jpg" alt="news" />
           <h4>WEDNESDAY</h4>
           <div class="price-row">
             <i>Morning:</i>
@@ -1917,7 +1917,7 @@ nav {
         </div>
         <!-- Slide 2 -->
         <div class="news__card">
-          <img src="media/menu-4.jpg" alt="news" />
+          <img src="/static/images/menu-4.jpg" alt="news" />
           <h4>THURSDAY</h4>
           <div class="price-row">
             <i>Morning:</i>
@@ -1937,7 +1937,7 @@ nav {
           </div>
         </div>
         <div class="news__card">
-          <img src="media/menu-5.jpg" alt="news" />
+          <img src="/static/images/menu-5.jpg" alt="news" />
           <h4>FRIDAY</h4>
           <div class="price-row">
             <i>Morning:</i>
@@ -1957,7 +1957,7 @@ nav {
           </div>
         </div>
         <div class="news__card">
-          <img src="media/menu-6.jpg" alt="news" />
+          <img src="/static/images/menu-6.jpg" alt="news" />
           <h4>SATURDAY</h4>
           <div class="price-row">
             <i>Morning:</i>
@@ -1977,7 +1977,7 @@ nav {
           </div>
         </div>
         <div class="news__card">
-          <img src="media/menu-8.jpg" alt="news" />
+          <img src="/static/images/menu-8.jpg" alt="news" />
           <h4>SUNDAY</h4>
           <div class="price-row">
             <i>Morning:</i>
@@ -2005,11 +2005,11 @@ nav {
         <div class="charges-container">
           <!-- Left side image -->
           <!-- <div class="charges-image">
-            <img src="media/menu-7.jpg" alt="Charges Info">
+            <img src="/static/images/menu-7.jpg" alt="Charges Info">
           </div> -->      
           <div class="charges-image">
             <video autoplay muted loop playsinline>
-              <source src="media/mess.mp4" type="video/mp4">
+              <source src="/static/images/mess.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
           </div>
@@ -2026,27 +2026,27 @@ nav {
             <ul class="charges-list">
               <li>
                 Residential Services 
-                <span class="arrow" data-modal="modal1">→</span>
+                <span class="arrow" data-modal="modal1">â†’</span>
               </li>
               <li>
                 RentEZ Fee Details 
-                <span class="arrow" data-modal="modal2">→</span>
+                <span class="arrow" data-modal="modal2">â†’</span>
               </li>
               <li>
                 Sports, Gym and Swimming Charges 
-                <span class="arrow" data-modal="modal3">→</span>
+                <span class="arrow" data-modal="modal3">â†’</span>
               </li>
               <li>
                 Laundry Charges 
-                <span class="arrow" data-modal="modal4">→</span>
+                <span class="arrow" data-modal="modal4">â†’</span>
               </li>
               <li>
                 Parking Charges 
-                <span class="arrow" data-modal="modal5">→</span>
+                <span class="arrow" data-modal="modal5">â†’</span>
               </li>
               <li>
                 Important Points 
-                <span class="arrow" data-modal="modal6">→</span>
+                <span class="arrow" data-modal="modal6">â†’</span>
               </li>
             </ul>
           </div>
@@ -2077,42 +2077,42 @@ nav {
             <table border="1" width="100%">
               <tr>
                 <th>Fee Category</th>
-                <th>Amount (₹)</th>
+                <th>Amount (â‚¹)</th>
                 <th>Description</th>
               </tr>
               <tr>
                 <td>Room Rent (Standard)</td>
-                <td>₹25,000</td>
+                <td>â‚¹25,000</td>
                 <td>Shared 3-Seater Room (per semester)</td>
               </tr>
               <tr>
                 <td>Room Rent (Premium)</td>
-                <td>₹35,000</td>
+                <td>â‚¹35,000</td>
                 <td>2-Seater Room with attached washroom</td>
               </tr>
               <tr>
                 <td>Mess Fee (Full Plan)</td>
-                <td>₹46,000</td>
-                <td>4 Meals per day – Breakfast, Lunch, Snacks, Dinner</td>
+                <td>â‚¹46,000</td>
+                <td>4 Meals per day â€“ Breakfast, Lunch, Snacks, Dinner</td>
               </tr>
               <tr>
                 <td>Mess Fee (Lite Plan)</td>
-                <td>₹42,000</td>
-                <td>3 Meals per day – Breakfast, Lunch, Dinner</td>
+                <td>â‚¹42,000</td>
+                <td>3 Meals per day â€“ Breakfast, Lunch, Dinner</td>
               </tr>
               <tr>
                 <td>Rebate Applicable</td>
-                <td>₹150/day</td>
+                <td>â‚¹150/day</td>
                 <td>Deducted for each eligible absent day beyond 4 days</td>
               </tr>
               <tr>
                 <td>Security Deposit</td>
-                <td>₹5,000</td>
+                <td>â‚¹5,000</td>
                 <td>Refundable after completion of hostel stay</td>
               </tr>
               <tr>
                 <td>Maintenance Charges</td>
-                <td>₹2,500</td>
+                <td>â‚¹2,500</td>
                 <td>Annual maintenance and facility service cost</td>
               </tr>
             </table>
@@ -2144,7 +2144,7 @@ nav {
               <table border="1" width="100%" style="border-collapse: collapse; margin-bottom: 25px;">
                 <tr style="background-color: #f8f9fa;">
                   <th style="padding: 12px; text-align: left; color: #333; border: 1px solid #ddd;">Charges to be paid</th>
-                  <th style="padding: 12px; text-align: right; color: #333; border: 1px solid #ddd;">Amount (₹)</th>
+                  <th style="padding: 12px; text-align: right; color: #333; border: 1px solid #ddd;">Amount (â‚¹)</th>
                 </tr>
                 <tr>
                   <td style="padding: 12px; color: #555; border: 1px solid #ddd;">Annual GYM Membership</td>
@@ -2156,7 +2156,7 @@ nav {
               <table border="1" width="100%" style="border-collapse: collapse; margin-bottom: 20px;">
                 <tr style="background-color: #f8f9fa;">
                   <th style="padding: 12px; text-align: left; color: #333; border: 1px solid #ddd;">Charges to be paid</th>
-                  <th style="padding: 12px; text-align: right; color: #333; border: 1px solid #ddd;">Amount (₹)</th>
+                  <th style="padding: 12px; text-align: right; color: #333; border: 1px solid #ddd;">Amount (â‚¹)</th>
                 </tr>
                 <tr>
                   <td style="padding: 12px; color: #555; border: 1px solid #ddd;">Charges to be paid (If Allotment done upto 30th September 2025)</td>
@@ -2188,7 +2188,7 @@ nav {
               <table border="1" width="100%" style="border-collapse: collapse; margin-bottom: 25px;">
                 <tr style="background-color: #f8f9fa;">
                   <th style="padding: 12px; text-align: left; color: #333; border: 1px solid #ddd;">Sports Category</th>
-                  <th style="padding: 12px; text-align: right; color: #333; border: 1px solid #ddd;">Amount (₹)</th>
+                  <th style="padding: 12px; text-align: right; color: #333; border: 1px solid #ddd;">Amount (â‚¹)</th>
                 </tr>
                 <tr>
                   <td style="padding: 12px; color: #555; border: 1px solid #ddd;">Indoor Sports (Badminton, Table Tennis, Squash) - Annual</td>
@@ -2208,7 +2208,7 @@ nav {
               <table border="1" width="100%" style="border-collapse: collapse; margin-bottom: 20px;">
                 <tr style="background-color: #f8f9fa;">
                   <th style="padding: 12px; text-align: left; color: #333; border: 1px solid #ddd;">Sports Category</th>
-                  <th style="padding: 12px; text-align: right; color: #333; border: 1px solid #ddd;">Amount (₹)</th>
+                  <th style="padding: 12px; text-align: right; color: #333; border: 1px solid #ddd;">Amount (â‚¹)</th>
                 </tr>
                 <tr>
                   <td style="padding: 12px; color: #555; border: 1px solid #ddd;">Indoor Sports Access (Subsidized) - Annual</td>
@@ -2246,7 +2246,7 @@ nav {
               <table border="1" width="100%" style="border-collapse: collapse; margin-bottom: 25px;">
                 <tr style="background-color: #f8f9fa;">
                   <th style="padding: 12px; text-align: left; color: #333; border: 1px solid #ddd;">Membership Type</th>
-                  <th style="padding: 12px; text-align: right; color: #333; border: 1px solid #ddd;">Amount (₹)</th>
+                  <th style="padding: 12px; text-align: right; color: #333; border: 1px solid #ddd;">Amount (â‚¹)</th>
                 </tr>
                 <tr>
                   <td style="padding: 12px; color: #555; border: 1px solid #ddd;">Swimming Pool Access - 6 Months</td>
@@ -2266,7 +2266,7 @@ nav {
               <table border="1" width="100%" style="border-collapse: collapse; margin-bottom: 20px;">
                 <tr style="background-color: #f8f9fa;">
                   <th style="padding: 12px; text-align: left; color: #333; border: 1px solid #ddd;">Membership Type</th>
-                  <th style="padding: 12px; text-align: right; color: #333; border: 1px solid #ddd;">Amount (₹)</th>
+                  <th style="padding: 12px; text-align: right; color: #333; border: 1px solid #ddd;">Amount (â‚¹)</th>
                 </tr>
                 <tr>
                   <td style="padding: 12px; color: #555; border: 1px solid #ddd;">Swimming Pool Access (Subsidized) - 6 Months</td>
@@ -2448,7 +2448,7 @@ nav {
         <div id="modal4" class="modal">
           <div class="modal-content">
             <span class="close">&times;</span>
-            <h2 style="color: #333; margin-bottom: 25px; font-size: 1.5rem;">Charges (in ₹) for In-House Laundry for Academic session 2025-26</h2>
+            <h2 style="color: #333; margin-bottom: 25px; font-size: 1.5rem;">Charges (in â‚¹) for In-House Laundry for Academic session 2025-26</h2>
             
             <!-- Description Section -->
             <div style="margin-bottom: 25px; line-height: 1.8;">
@@ -2647,15 +2647,15 @@ nav {
             <div style="margin-bottom: 25px; line-height: 2;">
               <ul style="color: #555; padding-left: 0; list-style: none;">
                 <li style="margin-bottom: 12px; position: relative; padding-left: 25px;">
-                  <span style="position: absolute; left: 0; color: #ff8c00; font-weight: bold;">→</span>
+                  <span style="position: absolute; left: 0; color: #ff8c00; font-weight: bold;">â†’</span>
                   Parking facility may be availed by Day Scholars as well as resident/ students.
                 </li>
                 <li style="margin-bottom: 12px; position: relative; padding-left: 25px;">
-                  <span style="position: absolute; left: 0; color: #ff8c00; font-weight: bold;">→</span>
+                  <span style="position: absolute; left: 0; color: #ff8c00; font-weight: bold;">â†’</span>
                   Students interested in availing this facility need to get their vehicle(s) (2 wheeler and/ or 4 wheeler) registered by filling a prescribed form, after paying the registration Charges before they bring their vehicles to the University Campus.
                 </li>
                 <li style="margin-bottom: 20px; position: relative; padding-left: 25px;">
-                  <span style="position: absolute; left: 0; color: #ff8c00; font-weight: bold;">→</span>
+                  <span style="position: absolute; left: 0; color: #ff8c00; font-weight: bold;">â†’</span>
                   The details of Registration Charges for Parking and its administration for different type of vehicle is as per following details:-
                 </li>
               </ul>
@@ -2721,35 +2721,35 @@ nav {
             <div style="margin-top: 20px; line-height: 2;">
               <ul style="color: #555; padding-left: 0; list-style: none;">
                 <li style="margin-bottom: 12px; position: relative; padding-left: 25px;">
-                  <span style="position: absolute; left: 0; color: #ff8c00; font-weight: bold;">→</span>
+                  <span style="position: absolute; left: 0; color: #ff8c00; font-weight: bold;">â†’</span>
                   Registration Charges for Parking as mentioned above is for academic session 2025-2026 and it is subject to change for successive sessions
                 </li>
                 <li style="margin-bottom: 12px; position: relative; padding-left: 25px;">
-                  <span style="position: absolute; left: 0; color: #ff8c00; font-weight: bold;">→</span>
+                  <span style="position: absolute; left: 0; color: #ff8c00; font-weight: bold;">â†’</span>
                   The parking place (unpaved parking) will be at some distance from the allotted residential accommodation and/ or academic block.
                 </li>
                 <li style="margin-bottom: 12px; position: relative; padding-left: 25px;">
-                  <span style="position: absolute; left: 0; color: #ff8c00; font-weight: bold;">→</span>
+                  <span style="position: absolute; left: 0; color: #ff8c00; font-weight: bold;">â†’</span>
                   The University bears no responsibility for the loss/ damage/ theft of the vehicle, accessories and any material in the vehicle.
                 </li>
                 <li style="margin-bottom: 12px; position: relative; padding-left: 25px;">
-                  <span style="position: absolute; left: 0; color: #ff8c00; font-weight: bold;">→</span>
+                  <span style="position: absolute; left: 0; color: #ff8c00; font-weight: bold;">â†’</span>
                   At all time, the speed limit, as specified by the University, needs to be followed in letter and spirit.
                 </li>
                 <li style="margin-bottom: 12px; position: relative; padding-left: 25px;">
-                  <span style="position: absolute; left: 0; color: #ff8c00; font-weight: bold;">→</span>
+                  <span style="position: absolute; left: 0; color: #ff8c00; font-weight: bold;">â†’</span>
                   In case of 2 wheelers, the driver as well as the pillion rider needs to wear the helmet.
                 </li>
                 <li style="margin-bottom: 12px; position: relative; padding-left: 25px;">
-                  <span style="position: absolute; left: 0; color: #ff8c00; font-weight: bold;">→</span>
+                  <span style="position: absolute; left: 0; color: #ff8c00; font-weight: bold;">â†’</span>
                   Tripling and other acts forbidden under Motor Vehicles Act, 1988 and/ or other relevant laws and regulations in force are not allowed.
                 </li>
                 <li style="margin-bottom: 12px; position: relative; padding-left: 25px;">
-                  <span style="position: absolute; left: 0; color: #ff8c00; font-weight: bold;">→</span>
+                  <span style="position: absolute; left: 0; color: #ff8c00; font-weight: bold;">â†’</span>
                   All vehicles brought inside the University Campus should have Insurance paper, RC, Driving License, Pollution Certificate and other relevant documents as required / prescribed under Motor Vehicles Act, 1988 and other relevant laws and regulations in force.
                 </li>
                 <li style="margin-bottom: 12px; position: relative; padding-left: 25px;">
-                  <span style="position: absolute; left: 0; color: #ff8c00; font-weight: bold;">→</span>
+                  <span style="position: absolute; left: 0; color: #ff8c00; font-weight: bold;">â†’</span>
                   <strong style="font-weight: 600;">The residential fee, along with charges for mess, laundry, swimming pool, gym and indoor facilities, are all managed by Pro Bricks.</strong>
                 </li>
               </ul>
@@ -2909,82 +2909,82 @@ nav {
     <div style="line-height: 2;">
       <ul style="color: #555; padding-left: 0; list-style: none; margin: 0;">
         <li style="margin-bottom: 15px; position: relative; padding-left: 25px; color: #555;">
-          <span style="position: absolute; left: 0; top: 0; color: #ff8c00; font-weight: bold;">→</span>
+          <span style="position: absolute; left: 0; top: 0; color: #ff8c00; font-weight: bold;">â†’</span>
           Residential facility is permitted on annual basis for students admitted for regular programmes for the duration of regular academic session.
         </li>
         
         <li style="margin-bottom: 15px; position: relative; padding-left: 25px; color: #555;">
-          <span style="position: absolute; left: 0; top: 0; color: #ff8c00; font-weight: bold;">→</span>
+          <span style="position: absolute; left: 0; top: 0; color: #ff8c00; font-weight: bold;">â†’</span>
           All rights of permission to avail the Residential facility are reserved with the University and can be denied to any student. No student shall be entitled to claim this facility as a matter of right.
         </li>
         
         <li style="margin-bottom: 15px; position: relative; padding-left: 25px; color: #555;">
-          <span style="position: absolute; left: 0; top: 0; color: #ff8c00; font-weight: bold;">→</span>
+          <span style="position: absolute; left: 0; top: 0; color: #ff8c00; font-weight: bold;">â†’</span>
           Residential facility will be offered on First Come First Serve basis, with the provision for reservation for special category of student(s) such as those admitted for residential or specific programme or admitted in Hons. programme or from the distant places or on the basis of academic/ sports/ cultural/ co-curricular or other performances or as decided otherwise by the University.
         </li>
         
         <li style="margin-bottom: 15px; position: relative; padding-left: 25px; color: #555;">
-          <span style="position: absolute; left: 0; top: 0; color: #ff8c00; font-weight: bold;">→</span>
+          <span style="position: absolute; left: 0; top: 0; color: #ff8c00; font-weight: bold;">â†’</span>
           The location of the Residential facility, floor and room pattern are subject to change from time to time.
         </li>
         
         <li style="margin-bottom: 15px; position: relative; padding-left: 25px; color: #555;">
-          <span style="position: absolute; left: 0; top: 0; color: #ff8c00; font-weight: bold;">→</span>
+          <span style="position: absolute; left: 0; top: 0; color: #ff8c00; font-weight: bold;">â†’</span>
           Residential facility will be provided till the end of the regular academic session including regular exams or 10 months from the start of session, whichever is earlier. Students can come and join two days prior to start of academic session and will be required to vacate Residential room/ apartment within two days after regular exams. For availing Residential facility after the end of regular academic session for any purpose like summer school/ reappear examination/ make up examination/ PEP/ EEP classes etc., additional proportionate residential Charges (residence) will have to be paid by the student, subject to the availability and permission of Residential facility.
         </li>
         
         <li style="margin-bottom: 15px; position: relative; padding-left: 25px; color: #555;">
-          <span style="position: absolute; left: 0; top: 0; color: #ff8c00; font-weight: bold;">→</span>
+          <span style="position: absolute; left: 0; top: 0; color: #ff8c00; font-weight: bold;">â†’</span>
           Customized plan (e.g. for full calendar year) may be provided on request.
         </li>
         
         <li style="margin-bottom: 15px; position: relative; padding-left: 25px; color: #555;">
-          <span style="position: absolute; left: 0; top: 0; color: #ff8c00; font-weight: bold;">→</span>
+          <span style="position: absolute; left: 0; top: 0; color: #ff8c00; font-weight: bold;">â†’</span>
           Residential Charges (Residence) is for the academic session 2025-26 and is subject to change for successive sessions.
         </li>
         
         <li style="margin-bottom: 15px; position: relative; padding-left: 25px; color: #555;">
-          <span style="position: absolute; left: 0; top: 0; color: #ff8c00; font-weight: bold;">→</span>
+          <span style="position: absolute; left: 0; top: 0; color: #ff8c00; font-weight: bold;">â†’</span>
           Unless otherwise specified, Residential facility(s) once chosen like Air Conditioned facility etc. will not be changed during the academic session.
         </li>
         
         <li style="margin-bottom: 15px; position: relative; padding-left: 25px; color: #555;">
-          <span style="position: absolute; left: 0; top: 0; color: #ff8c00; font-weight: bold;">→</span>
+          <span style="position: absolute; left: 0; top: 0; color: #ff8c00; font-weight: bold;">â†’</span>
           Residential Charges (Residence) includes the fee for accommodation (boarding and lodging), geyser, cooler or AC (as opted), and electricity (free units as mentioned below), generator and maintenance cost for light load.
         </li>
         
         <li style="margin-bottom: 15px; position: relative; padding-left: 25px; color: #555;">
-          <span style="position: absolute; left: 0; top: 0; color: #ff8c00; font-weight: bold;">→</span>
+          <span style="position: absolute; left: 0; top: 0; color: #ff8c00; font-weight: bold;">â†’</span>
           Unless otherwise specified, Residential facility(s) once chosen like AC facility etc. may be upgraded depending on the availability of the respective seater.
         </li>
         
         <li style="margin-bottom: 15px; position: relative; padding-left: 25px; color: #555;">
-          <span style="position: absolute; left: 0; top: 0; color: #ff8c00; font-weight: bold;">→</span>
+          <span style="position: absolute; left: 0; top: 0; color: #ff8c00; font-weight: bold;">â†’</span>
           Residential Charges (Residence) includes the Charges for accommodation, geyser, cooler or AC (as opted), and electricity (free units as mentioned in the Charges table)
         </li>
         
         <li style="margin-bottom: 15px; position: relative; padding-left: 25px; color: #555;">
-          <span style="position: absolute; left: 0; top: 0; color: #ff8c00; font-weight: bold;">→</span>
+          <span style="position: absolute; left: 0; top: 0; color: #ff8c00; font-weight: bold;">â†’</span>
           Electricity used in excess of free unit permissible by the university will be charged on actual basis. In case of shared room or apartment i.e. 2, 3, 4 seater etc. usages of electricity units will be calculated on per room basis and shared equally among all the occupants of the room.
         </li>
         
         <li style="margin-bottom: 15px; position: relative; padding-left: 25px; color: #555;">
-          <span style="position: absolute; left: 0; top: 0; color: #ff8c00; font-weight: bold;">→</span>
+          <span style="position: absolute; left: 0; top: 0; color: #ff8c00; font-weight: bold;">â†’</span>
           The reading of electricity meter noted on the day prior to reporting date of the first student in the allotted room in residential facility of the university, shall be considered as the initial reading for all the subsequent students allotted the same room.
         </li>
         
         <li style="margin-bottom: 15px; position: relative; padding-left: 25px; color: #555;">
-          <span style="position: absolute; left: 0; top: 0; color: #ff8c00; font-weight: bold;">→</span>
+          <span style="position: absolute; left: 0; top: 0; color: #ff8c00; font-weight: bold;">â†’</span>
           If a student wants a kit consisting of a Quilt, Bed sheet and Pillow with Cover then Rs. 3000 additional may have to be paid.
         </li>
         
         <li style="margin-bottom: 15px; position: relative; padding-left: 25px; color: #555;">
-          <span style="position: absolute; left: 0; top: 0; color: #ff8c00; font-weight: bold;">→</span>
+          <span style="position: absolute; left: 0; top: 0; color: #ff8c00; font-weight: bold;">â†’</span>
           For Refund of Charges, refer to 'Refund Policy for Indian Applicants' mentioned in Part-C of Prospectus.
         </li>
         
         <li style="margin-bottom: 15px; position: relative; padding-left: 25px; color: #555;">
-          <span style="position: absolute; left: 0; top: 0; color: #ff8c00; font-weight: bold;">→</span>
+          <span style="position: absolute; left: 0; top: 0; color: #ff8c00; font-weight: bold;">â†’</span>
           <strong style="font-weight: 600; color: #333;">The residential fee, along with charges for mess, laundry, swimming pool, gym and indoor facilities, are all managed by Pro Bricks.</strong>
         </li>
       </ul>
@@ -3018,9 +3018,9 @@ nav {
 
       <div><br></div><br><br>
         <!-- <div class="menu__images">
-          <img src="media/menu-7.jpg" alt="menu" />
-          <img src="media/menu-8.jpg" alt="menu" />
-          <img src="media/menu-9.jpg" alt="menu" />
+          <img src="/static/images/menu-7.jpg" alt="menu" />
+          <img src="/static/images/menu-8.jpg" alt="menu" />
+          <img src="/static/images/menu-9.jpg" alt="menu" />
         </div>-->
         <section id="contacts">
           <div class="menu__banner__content"> 
@@ -3066,7 +3066,7 @@ nav {
       <div class="news__grid" id="carousel">
         <!-- Slide 1 -->
         <div class="news__card">
-          <img src="media/facilities.jpg" alt="news" />
+          <img src="/static/images/facilities.jpg" alt="news" />
           <h4>Indoor Stadium Facility</h4>
           <p>
             Sports facility is being introduced with facility like Swimming,
@@ -3075,7 +3075,7 @@ nav {
           </p>
         </div>
         <div class="news__card">
-          <img src="media/facilities1.jpg" alt="news" />
+          <img src="/static/images/facilities1.jpg" alt="news" />
           <h4>Gym Facility</h4>
           <p>
             We are excited to offer a fully equipped gym facility to support the
@@ -3083,7 +3083,7 @@ nav {
           </p>
         </div>
         <div class="news__card">
-          <img src="media/facilities2.jpg" alt="news" />
+          <img src="/static/images/facilities2.jpg" alt="news" />
           <h4>Mess Facility</h4>
           <p>
             Our institute offers a clean and comfortable mess facility, providing
@@ -3093,21 +3093,21 @@ nav {
         </div>
         <!-- Slide 2 -->
         <div class="news__card">
-          <img src="media/facilities3.jpg" alt="news" />
+          <img src="/static/images/facilities3.jpg" alt="news" />
           <h4>InHouse Laundry</h4>
           <p>
             Convenient in-house laundry facility for students and staff, offering efficient and affordable washing and drying services. Focus on your studies and activities while we take care of your laundry needs.
           </p>
         </div>
         <div class="news__card">
-          <img src="media/facilities4.jpg" alt="news" />
+          <img src="/static/images/facilities4.jpg" alt="news" />
           <h4>Earn While You Learn</h4>
           <p>
             Our institute provides students with opportunities to gain practical work experience through part-time jobs, while also earning an income and enhancing their skills.
           </p>
         </div>
         <div class="news__card">
-          <img src="media/facilities5.jpg" alt="news" />
+          <img src="/static/images/facilities5.jpg" alt="news" />
           <h4>Apartment Style Housing</h4>
           <p>
             Hostel rooms designed for comfort with attached washrooms, study tables, storage, and modern amenities, ensuring a home-like environment for students.
@@ -3189,7 +3189,7 @@ nav {
         </div>
       </div>
       <div class="footer__bar">
-        Copyright © 2026 RentEZ. All rights reserved.
+        Copyright Â© 2026 RentEZ. All rights reserved.
       </div>
     </footer>
 
@@ -3317,7 +3317,7 @@ const nextBtn = document.getElementById("nextBtn");
 const prevBtn = document.getElementById("prevBtn");
 
 let scrollAmount = 0;
-const cardWidth = carousel.querySelector(".news__card").offsetWidth + 20; // ✅ correct class
+const cardWidth = carousel.querySelector(".news__card").offsetWidth + 20; // âœ… correct class
 const visibleCards = 3;
 
 nextBtn.addEventListener("click", () => {
@@ -3367,7 +3367,7 @@ ScrollReveal().reveal('.apply-card', {
   origin: 'bottom',
   distance: '40px',
   easing: 'ease-in-out',
-  reset: false   // ❌ was true → now false
+  reset: false   // âŒ was true â†’ now false
 });
 
 // Animate inputs one by one
@@ -3376,7 +3376,7 @@ ScrollReveal().reveal('.apply-card .field', {
   origin: 'left',
   distance: '30px',
   interval: 150,
-  reset: false   // ❌
+  reset: false   // âŒ
 });
 
 // Animate "help" text
@@ -3385,7 +3385,7 @@ ScrollReveal().reveal('.apply-card .help', {
   origin: 'right',
   distance: '40px',
   delay: 400,
-  reset: false   // ❌
+  reset: false   // âŒ
 });
 
 // Animate Apply Now button
@@ -3393,7 +3393,7 @@ ScrollReveal().reveal('.apply-card .btn-apply', {
   duration: 1200,
   scale: 0.8,
   delay: 800,
-  reset: false   // ❌
+  reset: false   // âŒ
 });
 
 // Animate Login link
@@ -3402,7 +3402,7 @@ ScrollReveal().reveal('.apply-card .login', {
   origin: 'top',
   distance: '30px',
   delay: 700,
-  reset: false   // ❌
+  reset: false   // âŒ
 });
 
 

@@ -57,8 +57,7 @@ staticfiles/
 rentez_backend/staticfiles/
 media/*
 !media/.gitkeep
-rentez_backend/media/*
-!rentez_backend/media/.gitkeep
+# static/images are committed (design assets, not user uploads)
 
 # ==========================================
 # Logs & Temporary Files
