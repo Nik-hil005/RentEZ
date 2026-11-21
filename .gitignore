@@ -90,6 +90,6 @@ db.sqlite3
 __pycache__/
 *.pyc
 staticfiles/
-media/
+
 run_backend.bat
 run_frontend.bat
