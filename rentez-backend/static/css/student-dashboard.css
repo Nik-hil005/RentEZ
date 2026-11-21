@@ -878,4 +878,64 @@ body {
     .payment-actions {
         flex-direction: column;
     }
+
+    /* ── Extra small mobile fixes ── */
+    .nav-left h2 {
+        font-size: 1.2rem;
+    }
+
+    .student-welcome {
+        font-size: 0.75rem;
+    }
+
+    .logout-btn {
+        font-size: 0.75rem;
+        padding: 0.4rem 0.6rem;
+    }
+
+    .amount {
+        font-size: 1.4rem;
+    }
+
+    .history-table th,
+    .history-table td {
+        padding: 0.5rem 0.4rem;
+        font-size: 0.75rem;
+    }
+
+    .profile-info label {
+        width: 120px;
+        font-size: 0.85rem;
+    }
+
+    .profile-info span {
+        font-size: 0.85rem;
+    }
+
+    .summary-card {
+        padding: 1rem;
+    }
+
+    .request-item {
+        padding: 1rem;
+    }
+}
+
+/* ── Tablet (769px – 1024px) ── */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .sidebar {
+        width: 200px;
+    }
+
+    .main-content {
+        padding: 1.5rem;
+    }
+
+    .fee-summary {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .attendance-summary {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

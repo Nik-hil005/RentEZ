@@ -1211,6 +1211,147 @@ body::after {
                 right: 10px;
                 width: calc(100vw - 20px);
             }
+
+            /* ── Additional tablet/mobile fixes ── */
+            .sidebar-header h1 {
+                font-size: 1.5rem;
+            }
+
+            .sidebar-header {
+                padding: 20px 15px;
+            }
+
+            .sidebar-nav {
+                display: flex;
+                flex-direction: row;
+                overflow-x: auto;
+                padding: 0.5rem 0;
+                gap: 0;
+            }
+
+            .nav-item {
+                white-space: nowrap;
+                flex-shrink: 0;
+                border-left: none !important;
+                border-bottom: 3px solid transparent;
+                padding: 0.8rem 1rem;
+            }
+
+            .nav-item.active {
+                border-left: none !important;
+                border-bottom-color: #667eea;
+            }
+
+            .nav-item span {
+                display: none;
+            }
+
+            .nav-item i {
+                font-size: 1.3rem;
+            }
+
+            .user-info {
+                display: none;
+            }
+
+            .content-area {
+                padding: 1rem;
+            }
+
+            .section-title {
+                font-size: 1.3rem;
+            }
+
+            .cards-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .card {
+                padding: 1rem;
+            }
+
+            .card-value {
+                font-size: 1.5rem;
+            }
+
+            table {
+                font-size: 0.8rem;
+            }
+
+            th, td {
+                padding: 0.5rem 0.4rem;
+            }
+
+            .btn-primary,
+            .btn-secondary,
+            .btn-danger {
+                padding: 0.5rem 0.8rem;
+                font-size: 0.85rem;
+            }
+        }
+
+        /* ── Small mobile (480px and below) ── */
+        @media (max-width: 480px) {
+            .sidebar-header h1 {
+                font-size: 1.2rem;
+                letter-spacing: 1px;
+            }
+
+            .main-content {
+                padding: 15px 10px;
+            }
+
+            .section-title {
+                font-size: 1.1rem;
+            }
+
+            .card-value {
+                font-size: 1.2rem;
+            }
+
+            table {
+                font-size: 0.72rem;
+            }
+
+            th, td {
+                padding: 0.4rem 0.3rem;
+            }
+
+            .modal-content {
+                width: 95%;
+                margin: 5% auto;
+                border-radius: 8px;
+            }
+
+            .modal-header,
+            .modal-body {
+                padding: 1rem;
+            }
+
+            .form-actions,
+            .payment-actions {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+
+            .form-actions button,
+            .payment-actions button {
+                width: 100%;
+            }
+
+            .filter-group {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+
+            .filter-group select,
+            .filter-group input {
+                width: 100%;
+            }
+
+            .notification-dropdown {
+                width: calc(100vw - 20px);
+            }
         }
 
         /* Loading Animation */
