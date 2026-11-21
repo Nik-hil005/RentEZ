@@ -1,5 +1,5 @@
 @echo off
-cd /d %~dp0hostello_backend
+cd /d %~dp0rentez-backend
 if exist ..\venv\Scripts\activate.bat (
     call ..\venv\Scripts\activate.bat
 ) else (
