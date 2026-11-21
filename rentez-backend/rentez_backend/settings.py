@@ -1,5 +1,5 @@
 """
-Django settings for hostello_backend project.
+Django settings for rentez_backend project.
 """
 
 from pathlib import Path
@@ -70,7 +70,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'hostello_backend.urls'
+ROOT_URLCONF = 'rentez_backend.urls'
 
 TEMPLATES = [
     {
@@ -88,7 +88,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'hostello_backend.wsgi.application'
+WSGI_APPLICATION = 'rentez_backend.wsgi.application'
 
 # Database
 DATABASE_URL = config('DATABASE_URL', default=None)

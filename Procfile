@@ -1,2 +1,2 @@
-web: gunicorn hostello_backend.wsgi:application --chdir hostello_backend
-release: python hostello_backend/manage.py migrate
+web: gunicorn rentez_backend.wsgi:application --chdir rentez-backend
+release: python rentez-backend/manage.py migrate

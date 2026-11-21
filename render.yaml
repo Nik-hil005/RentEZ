@@ -2,9 +2,9 @@ services:
   - type: web
     name: rentez
     runtime: python
-    rootDir: hostello_backend
+    rootDir: rentez-backend
     buildCommand: pip install -r requirements.txt && python manage.py collectstatic --noinput && python manage.py migrate
-    startCommand: gunicorn hostello_backend.wsgi:application
+    startCommand: gunicorn rentez_backend.wsgi:application
     envVars:
       - key: DEBUG
         value: "false"

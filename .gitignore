@@ -54,11 +54,11 @@ datadump.json
 # Staticfiles & Media (Production Artifacts)
 # ==========================================
 staticfiles/
-hostello_backend/staticfiles/
+rentez_backend/staticfiles/
 media/*
 !media/.gitkeep
-hostello_backend/media/*
-!hostello_backend/media/.gitkeep
+rentez_backend/media/*
+!rentez_backend/media/.gitkeep
 
 # ==========================================
 # Logs & Temporary Files
