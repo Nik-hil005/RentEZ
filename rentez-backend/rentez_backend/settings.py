@@ -5,6 +5,8 @@ Django settings for rentez_backend project.
 from pathlib import Path
 import os
 
+from django.core.files import images
+
 # Try to import decouple, if not available use default values
 try:
     from decouple import config
@@ -251,7 +253,7 @@ JAZZMIN_SETTINGS = {
     "site_title": "RentEZ Admin",
     "site_header": "RentEZ",
     "site_brand": "RentEZ",
-    "site_icon": "fas fa-home",
+    "site_icon": "images/favicon.png",
     "custom_css": "admin/css/custom_admin.css",
     "welcome_sign": "Welcome to RentEZ Admin Panel",
     "copyright": "RentEZ © 2025",
