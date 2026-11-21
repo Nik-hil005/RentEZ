@@ -82,3 +82,12 @@ db.sqlite3-journal
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+venv/
+hostello_env/
+.env
+db.sqlite3
+__pycache__/
+*.pyc
+staticfiles/
+media/
